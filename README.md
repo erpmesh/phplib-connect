@@ -1,4 +1,4 @@
-# phplib-connect
+### phplib-connect
 
 [![Build Status](https://travis-ci.org/erpmesh/phplib-connect.svg)](https://travis-ci.org/erpmesh/phplib-connect)
 [![Total Downloads](https://poser.pugx.org/erpmesh/phplib-connect/d/total.svg)](https://packagist.org/packages/erpmesh/phplib-connect)
@@ -10,3 +10,6 @@
 PHP Library that integrated with ERPMesh for the synchronization between other ERP software to php base ERP software
 
 
+### License
+
+The ErpMesh phplib-connect is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
