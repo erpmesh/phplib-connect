@@ -1,14 +1,19 @@
 {
-    "name": "erpmesh/phplib-connect",
-    "description": "PHP Library that integrated with ERPMesh for the synchronization between other ERP software to php base ERP software",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Pitipong Guntawong",
-            "email": "pppstudio.gm@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "erpmesh/phplib-connect",
+  "description": "PHP Library that integrated with ERPMesh for the synchronization between other ERP software to php base ERP software",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pitipong Guntawong",
+      "email": "pppstudio.gm@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "erpMesh\\phplib\\": "class/"
+    }
+  }
 }
