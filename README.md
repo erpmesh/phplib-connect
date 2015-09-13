@@ -22,7 +22,7 @@ $ composer require erpmesh/phplib-connect
 ```php
 <?php
 
-use erpmesh\phplib-connect\AbstractActionSet;
+use erpmesh\phplib\AbstractApplicationHandler;
 
 // implement the handle class
 class AppHandler extends AbstractApplicationHandler{
@@ -37,12 +37,12 @@ class AppHandler extends AbstractApplicationHandler{
 
 // call the handler to process data
 $handler = new AppHandler();
-$handler->handleRequest()
+$handler->handleRequest();
 ```
 
 ## Documentation
 
-Please see the documents here [erpMesh](http://erpmesh.com)
+Please see the documents here [erpMesh](http://erpmesh.com/docs)
 
 ## About
 
