@@ -11,10 +11,10 @@ class AbstractApplicationHandlerTest extends PHPUnit_Framework_TestCase
 
         $stub = $this->getMockForAbstractClass('erpMesh\phplib\AbstractApplicationHandler');
         $stub->expects($this->any())
-            ->method('CreatePO')
+            ->method('RemoteAskCreatePO')
             ->will($this->returnValue(TRUE));
         $stub->expects($this->any())
-            ->method('CreateSO')
+            ->method('RemoteAskCreateSO')
             ->will($this->returnValue(TRUE));
 
         $this->assertTrue($stub->handleRequest());
